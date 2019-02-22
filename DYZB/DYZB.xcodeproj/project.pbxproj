@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AC323B9A221FC26B00A7D451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC323B99221FC26B00A7D451 /* AppDelegate.swift */; };
-		AC323B9C221FC26B00A7D451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC323B9B221FC26B00A7D451 /* ViewController.swift */; };
 		AC323B9F221FC26B00A7D451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC323B9D221FC26B00A7D451 /* Main.storyboard */; };
 		AC323BA1221FC26D00A7D451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC323BA0221FC26D00A7D451 /* Assets.xcassets */; };
 		AC323BA4221FC26D00A7D451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC323BA2221FC26D00A7D451 /* LaunchScreen.storyboard */; };
 		AC323BAF221FC26D00A7D451 /* DYZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC323BAE221FC26D00A7D451 /* DYZBTests.swift */; };
 		AC323BBA221FC26D00A7D451 /* DYZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC323BB9221FC26D00A7D451 /* DYZBUITests.swift */; };
+		AC323BC8221FD69100A7D451 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = AC323BC7221FD69000A7D451 /* Classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		AC323B96221FC26B00A7D451 /* DYZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC323B99221FC26B00A7D451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC323B9B221FC26B00A7D451 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC323B9E221FC26B00A7D451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC323BA0221FC26D00A7D451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC323BA3221FC26D00A7D451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		AC323BB5221FC26D00A7D451 /* DYZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC323BB9221FC26D00A7D451 /* DYZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DYZBUITests.swift; sourceTree = "<group>"; };
 		AC323BBB221FC26D00A7D451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC323BC7221FD69000A7D451 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		AC323B98221FC26B00A7D451 /* DYZB */ = {
 			isa = PBXGroup;
 			children = (
+				AC323BC7221FD69000A7D451 /* Classes */,
 				AC323B99221FC26B00A7D451 /* AppDelegate.swift */,
-				AC323B9B221FC26B00A7D451 /* ViewController.swift */,
 				AC323B9D221FC26B00A7D451 /* Main.storyboard */,
 				AC323BA0221FC26D00A7D451 /* Assets.xcassets */,
 				AC323BA2221FC26D00A7D451 /* LaunchScreen.storyboard */,
@@ -230,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC323BA4221FC26D00A7D451 /* LaunchScreen.storyboard in Resources */,
+				AC323BC8221FD69100A7D451 /* Classes in Resources */,
 				AC323BA1221FC26D00A7D451 /* Assets.xcassets in Resources */,
 				AC323B9F221FC26B00A7D451 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC323B9C221FC26B00A7D451 /* ViewController.swift in Sources */,
 				AC323B9A221FC26B00A7D451 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
